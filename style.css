@@ -81,7 +81,7 @@ body{
     height: 70%;
     width: 50%;
     margin-bottom: 100px;
-    background-color: rgba(80, 92, 158, 0.5);
+    background-color: rgba(80, 92, 158, 0.4);
     border-radius: 20px;
 }
 
@@ -113,7 +113,7 @@ body{
 
 .container .center-container .background-container .bloco-texto .ip-text{
     font-size: 25px;
-    margin-right: 10px;
+    background-color: rgba(194, 194, 235, 1);;
 }
 
 .container .center-container .background-container .bloco-texto .ip{
@@ -123,8 +123,8 @@ body{
 
 .bloco-texto .bloco-ips{
     text-align: center;
-    background-color: rgba(224, 224, 224, 0.8);
-    border-radius: 20%;
+    background-color: rgba(194, 194, 235, 0.8);
+    
 }
 
 .container .center-container .background-container{
