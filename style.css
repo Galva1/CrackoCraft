@@ -65,7 +65,6 @@ body{
     color: black;
 }
 .menu-head .menu-right a:hover{
-    text-decoration: underline;
     color: #3498db;
 }
 
@@ -89,17 +88,96 @@ body{
 .container .center-container .background-container{
     height: 100%;
     width: 100%;
-    padding: 20px 0 0 20px;  
+    padding: 20px 0 0 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
-.container .center-container .background-container p{
-    font-size: 60px;
+.container .center-container .bloco-texto{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .center-container .background-container .bloco-texto .sub-texto-destaque{
+    font-size: 60px;
     text-align: center;
 }
 
 #Texto-destaque{
     font-size: 80px;
+    text-align: center;
     color: rgb(240, 240, 175);
     text-shadow: 2px 2px 2px #000;
+    margin-bottom: 80px;
+}
+
+.container .center-container .background-container .bloco-texto .ip-text{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.container .center-container .background-container .bloco-texto .ip{
+    color: #2b5fee;
+    font-size: 25px;
+}
+
+.bloco-texto .bloco-ips{
+    text-align: center;
+    background-color: rgba(224, 224, 224, 0.8);
+    border-radius: 20%;
+}
+
+.container .center-container .background-container{
+    height: 100%;
+    width: 100%;
+    padding: 20px 0 0 20px;  
+}
+
+@media only screen and (max-width: 1220px){
+    #Texto-destaque{
+        font-size: 60px;
+    }   
+    .container .center-container .background-container p{
+        font-size: 40px;
+    }
+
+    .menu-head .menu-right li{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 940px){
+    #Texto-destaque{
+        font-size: 40px;
+    }   
+    .container .center-container .background-container p{
+        font-size: 30px;
+    }
+    .menu-head .menu-right li{
+        font-size: 15px;
+    } 
+}
+
+@media only screen and (max-width: 640px){
+    #Texto-destaque{
+        font-size: 30px;
+    }   
+    .container .center-container .background-container p{
+        font-size: 25px;
+    }
+    .menu-head .menu-right li{
+        font-size: 15px;
+    } 
+}
+
+@media only screen and (max-width: 490px){
+    #Texto-destaque{
+        font-size: 20px;
+    }   
+    .container .center-container .background-container p{
+        font-size: 18px;
+    }
+    .menu-head .menu-right li{
+        font-size: 15px;
+    } 
 }
