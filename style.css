@@ -11,7 +11,7 @@ body{
 .menu-head{
     height: 5%;
     width: 100%;
-    background-color: gainsboro;
+    background-color: rgb(206, 206, 206, 0.8);
     display: flex;
 }
 
@@ -79,9 +79,9 @@ body{
 .container .center-container{
     display: flex;
     height: 70%;
-    width: 50%;
+    width: 60%;
     margin-bottom: 100px;
-    background-color: rgba(80, 92, 158, 0.4);
+    background-color: rgba(97, 131, 110, 0.4);
     border-radius: 20px;
 }
 
@@ -113,18 +113,18 @@ body{
 
 .container .center-container .background-container .bloco-texto .ip-text{
     font-size: 25px;
-    background-color: rgba(194, 194, 235, 1);;
+    background-color: rgb(206, 206, 206, 1);
+    font-weight: bold;
 }
 
 .container .center-container .background-container .bloco-texto .ip{
     color: #2b5fee;
-    font-size: 25px;
+    font-size: 25px;   
 }
 
 .bloco-texto .bloco-ips{
     text-align: center;
-    background-color: rgba(194, 194, 235, 0.8);
-    
+    background-color:rgb(206, 206, 206, 0.8);    
 }
 
 .container .center-container .background-container{
