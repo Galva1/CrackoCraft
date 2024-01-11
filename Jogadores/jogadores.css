@@ -1,1 +1,15 @@
+.container-jogadores{
+    display: flex;
+    height: 95%;
+    width: 100%;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.container-jogadores-center{
+    display: flex;
+    width: 65%;
+    height: 100%;
+    background-color: brown;
+}
 

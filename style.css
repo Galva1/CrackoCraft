@@ -149,6 +149,9 @@ body{
 @media only screen and (max-width: 940px){
     #Texto-destaque{
         font-size: 40px;
+    }
+    .container .center-container .background-container p{
+        font-size: 30px;
     }   
     .container .center-container .background-container p{
         font-size: 30px;
@@ -161,7 +164,10 @@ body{
 @media only screen and (max-width: 640px){
     #Texto-destaque{
         font-size: 30px;
-    }   
+    } 
+    .container .center-container .background-container .sub-texto-destaque{
+        font-size: 22px;
+    }  
     .container .center-container .background-container p{
         font-size: 25px;
     }
@@ -174,6 +180,9 @@ body{
     #Texto-destaque{
         font-size: 20px;
     }   
+    .container .center-container .background-container p{
+        font-size: 30px;
+    }  
     .container .center-container .background-container p{
         font-size: 18px;
     }
